@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 700px;
+  margin: auto;
+}
+/* -----------Common------------- */
+/* --------RUN--------- */
+.run_board {
+  width: 100%;
+  height: 300px;
+  background-color: gold;
+  position: relative;
+}
+.run_title {
+  text-align: center;
+  padding: 15px;
+}
+.run_close {
+  width: 40px;
+  position: absolute;
+  top: 15px;
+  left: 90%;
+  cursor: pointer;
+}
+
+.run_button {
+  position: absolute;
+  width: 15%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  height: 30px;
+  border: 1px solid white;
+}
+
+.run_no {
+  left: 32%;
+  top: 50%;
+  transition: 0, 09s;
+}
+
+.run_yes {
+  left: 52%;
+  top: 50%;
+}
+
+.run_result {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(34, 34, 156);
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+/* --------RUN--------- */
