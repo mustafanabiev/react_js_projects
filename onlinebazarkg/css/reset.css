@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+ol,
+ul,
+p {
+    margin: 0px;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 1250px;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 792px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 576px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0px 1rem;
+    }
+}
