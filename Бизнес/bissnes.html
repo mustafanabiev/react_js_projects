@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="pagination">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div class="container">
+		<h1 class="h1">Товардын баасын чыгаруу !!!</h1>
+		<div class="container-block">
+			<div class="block-elem">
+				<h3>Юань ¥</h3>
+				<input oninput="changeHandler(this)" id="uain" type="number" name="">
+			</div>
+			<div class="block-elem">
+				<h3>Юань на Сом ¥</h3>
+				<input class="input" id="som" type="number" name="">
+			</div>
+		</div>
+
+		<div class="container-block">
+			<div class="block-elem">
+				<h3>Килограмм</h3>
+				<input class="input" id="kg" type="number" name="">
+			</div>
+			<div class="block-elem">
+				<h3>Карго Доллар $</h3>
+				<input class="input" id="kargo" type="number" name="">
+			</div>
+		</div>
+
+		<div class="container-block">
+			<div class="block-elem">
+				<h3>Доллар $</h3>
+				<input class="input" id="dollar" type="number" name="">
+			</div>
+			<div class="block-elem">
+				<h3>Количества(шт)</h3>
+				<input class="input" id="shtuk" type="number" name="">
+			</div>
+		</div>
+		<div class="container-block2">
+			<div class="block-elem">
+				<button id="reset" class="btn">Жаңылоо</button>
+			</div>
+			<div class="block-elem">
+				<button id="tocount" class="btn">Эсептөө</button>
+			</div>
+		</div>
+
+		<p id="result" class="block-text"></p>
+	</div>
+
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

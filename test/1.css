@@ -1,0 +1,19 @@
+.a{
+    color: blue;
+    font-size: 100px;
+  
+
+}
+body{
+    background-color: #14FFFF;
+
+}
+.a:hover{
+	color:red;
+}
+.aa{
+    color: green;
+    font-size: 100px;
+
+
+} .aa:hover{ color:yellow; }

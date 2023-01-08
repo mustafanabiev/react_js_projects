@@ -1,0 +1,56 @@
+body{
+	margin:auto;
+	display: flex;
+	justify-content: center;
+}
+.container-block {
+	display: grid;
+	grid-template-columns: 250px 250px;
+	grid-template-rows: 100px;
+	border:2px solid red;
+	
+}
+
+.container-block2 {
+	display: grid;
+	grid-template-columns: 250px 250px;
+	grid-template-rows: 100px;
+	border:2px solid red;
+
+}
+.pagination div{
+	padding: 10px;
+	display: inline-block;
+	background-color: red;
+	border-radius: 100%;
+}
+.input{
+	margin: -11px;
+	height: 25px;
+}
+
+.h1{
+	text-align: center;
+}
+
+.block-elem{
+	position: relative;
+	border:2px solid blue;
+	text-align: center;
+
+
+}
+.block-text{
+	text-align: center;
+	font-size: 35px;
+}
+.btn{
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
