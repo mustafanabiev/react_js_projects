@@ -1,0 +1,272 @@
+body{
+	margin:0px;
+	
+}
+.first{
+	width: 120px;
+	height: 120px;
+	margin-top: 10px;
+	border:  white;
+	animation-name: shape;
+	animation-iteration-count:infinite; 
+	animation-duration: 1s;
+	border: 2px solid white;
+	border-radius: 100%;
+}
+@keyframes shape{
+	0%{
+		transform: rotate(10deg);
+	}
+	50%{
+		transform: rotate(-10deg);
+	}
+	100%{
+		transform: rotate(10deg);
+	}	
+}
+.istore {
+	font-size: 50px;
+	font-family: Roboto;
+	color: white;
+	animation-name: shadow;
+	animation-iteration-count:infinite; ;
+	animation-duration: 2s;
+
+}
+@keyframes shadow{
+	0%{
+		text-shadow: 1px 1px 6px white; 
+	}
+	50%{
+		text-shadow: 0px 0px 0px white;
+	}
+	
+	100%{
+		text-shadow: 1px 1px 6px white;
+	}
+}
+
+.text{
+	font-size: 25px;
+	font-family: Roboto;
+	padding: 10px;
+	color: white;
+}
+.backround{
+	background-color: #0D47A1;
+}
+.poisk > input{
+	margin-top: 10px;
+	width: 500px;
+	height: 20px;
+	padding-left: 5px;
+}
+.container{
+	background-color: rgb(184,178,178);
+	width: 580px;
+	height: 230px;
+	margin-top: 15px;
+	border-radius: 10px;
+
+}
+.apple,.samsung,.huawei,.xiaomi,.honor {
+	height: 200px;
+	margin-top: 15px;
+	border-radius: 15px;
+	width: 70px;
+	height: 140px;	
+	display: inline-block;
+	cursor: pointer;
+}
+.fon{
+	background-color: white;
+	width: 105px;
+	height: 100%;
+	margin-top: 20px;
+	display: inline-block;
+	padding-bottom: 10px;
+	transition: 1s;
+}
+.resurs{
+	display: inline-block;
+}
+
+.fon:hover {
+	border-radius: 20px;
+}
+.a{
+	height: 100px;
+	width: 580px;
+	margin-top:40px; 
+	display: inline-block;
+}
+.a:hover{
+	height: 110px;
+	width: 590px;
+
+
+	
+}
+.b{
+	width: 160px;
+	height: 290px;
+	margin-top: 15px;
+	margin-right: 350px; 
+	border-radius: 10px;
+	border:3px solid grey;
+	display: inline-block;
+
+
+	
+}
+.c{
+	width: 150px;
+	height: 160px;
+	padding: 5px;
+	margin-right: 100px;
+	display: inline-block;
+	
+
+	
+}
+.cc{
+	background-color:yellow;
+	width: 140px;
+	height: 35x;
+	border-radius: 20px; 
+	margin-bottom:  5px; 
+	display: inline-block;
+	
+	
+
+
+}
+.cc:hover{
+	background-color: green;
+	cursor: pointer;
+	  }
+
+.ccc{
+	background-color:blue;
+	width: 160px;
+	height: 95x;
+	border-radius: 20px;
+	padding: 5px;
+	display: inline-block;
+
+}
+.ccc:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.bb{
+	width: 160px;
+	height: 290px;
+	margin-top: 15px;
+	margin-right: 350px; 
+	border-radius: 10px;
+	border:3px solid grey;
+	display: inline-block;
+
+
+	
+}
+.z{
+	width: 150px;
+	height: 160px;
+	padding: 5px;
+	margin-right: 100px;
+	display: inline-block;
+	
+
+	
+}
+.zz{
+	background-color:yellow;
+	width: 140px;
+	height: 35x;
+	border-radius: 20px; 
+	margin-bottom:  5px; 
+	display: inline-block;
+	
+
+
+}
+.zz:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.zzz{
+	background-color:blue;
+	width: 160px;
+	height: 95x;
+	border-radius: 20px;
+	padding: 5px;
+	display: inline-block;
+}
+.zzz:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.sylka{
+	width: 600px;
+	height: 110px;
+	margin-top: 10px;
+}
+
+.container-99{
+	width: 490px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+.box-99{
+	display: inline-block;
+	width: 150px;
+	border: 3px solid grey;
+	height: 290px;
+	border-radius: 10px;
+	margin-right: 3px;
+	margin-bottom: 10px;
+
+
+}
+.price-99{
+	background-color: yellow;
+	width: 100px;
+	height: 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+
+
+}
+.price-99:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+.buy{
+	background-color: blue;
+	margin-top: 5px;
+	width: 110px;
+	height: 25px;
+	border-radius: 10px;		
+}
+.buy:hover{
+	background-color: green;
+	cursor: pointer;
+}
+.honor{
+	transition: 1s;
+}
+.honor:hover{
+	transform: scale(.9, .9);
+}
+.container-98{
+
+	width:100%;
+	padding: 25px 0;
+	background-color: #2D11FF;
+	text-align: center;
+	color: white;
+}	
