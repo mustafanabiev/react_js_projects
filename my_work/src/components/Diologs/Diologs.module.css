@@ -1,0 +1,18 @@
+.diologs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+.diologsItem{
+    padding: 10px;
+
+}
+.diologsItem .active {
+    color: gold;
+}
+.messages{
+
+}
+.messages .message {
+
+}
